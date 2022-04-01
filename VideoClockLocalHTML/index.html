@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Video Clock</title>
+    <link rel="stylesheet" href="./css/mainStyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="navbar_wraper">
+      <!-- will load common navbar with js $().load() method -->
+    </div>
+    <div id="#app" class="app">
+      <div class="video-player-group">
+        <video id="preload" muted="muted" style="display: none"></video>
+        <video id="video-player" class="video-player" muted="muted"></video>
+        <div id="hour"></div>
+        <div id="topcom"></div>
+      </div>
+      <button id="fullscreen">fullscreen</button>
+    </div>
+    <div class="footer_wraper">
+      <!-- will load common footer with js $().load() method -->
+    </div>
+    <!-- <script type="modu" src="playlist.js"></script> -->
+    <!-- <script type="modu" src="BaseDirPath.js"></script> -->
+    <script src="./PathToBaseDir.js"></script>
+    <script src="./PlyLst_Base.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/mainFunctions.js"></script>
+  </body>
+</html>
